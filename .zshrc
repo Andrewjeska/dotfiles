@@ -111,7 +111,5 @@ alias ga='git add'
 alias gc='git commit'
 alias gp='git push --set-upstream'
 
-alias dokkuDeploy='git push dokku master'
-
 alias killServer="lsof -i :5000 | awk '{print $2}' | sed -n 2p | xargs kill -9"
 
